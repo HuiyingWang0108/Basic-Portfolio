@@ -58,7 +58,6 @@ img{
     padding: 5px;
     width: 160px;
     float: left;
-    margin-right: 20px;
     
     
 }
@@ -104,14 +103,23 @@ footer{
 }
 #grid{
     display: grid;
-    grid-template-columns: auto 70%;
+    grid-template-columns: auto 80%;
     grid-gap: 10px;
 }
 #grid >div{
-    font-size: 30px;
-    max-width: 120px;
-    max-height: 300px;
+    font-size: 26px;
+    width: 160px;
     object-fit: contain;
+    position: relative;
+}
+h4{
+    position: absolute;
+    width: 100%;
+    left: 5px;
+    bottom: -15px;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
 }
 /*form{
     display: inline-grid;
