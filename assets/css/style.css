@@ -169,5 +169,5 @@ form{
 .font-ex::first-letter{
     font-size: 40px;
     color: hotpink;
-    
+    font-family: 'Charmonman', cursive;
 }
