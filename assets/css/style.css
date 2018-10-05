@@ -51,6 +51,15 @@ nav ul li a {
 a:hover{
     color: #4aaaa5;
 }
+a:active{
+    background-color: #17be5d;
+}
+input:focus{
+    background-color: gold;
+}
+textarea:focus{
+    background-color: gold;
+}
 img{
 
     border: 1px solid #ddd;
@@ -146,6 +155,7 @@ form{
 }
 #submit_button:hover{
     background-color: #0e8d87;
+    font-size: 120%;
 }
 
 /*.img_1{
